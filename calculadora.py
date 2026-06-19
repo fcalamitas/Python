@@ -1,4 +1,4 @@
-print("Welcome to Renan's Calculator")
+print("Welcome to Fiori's Calculator")
 print("=====Tutorial=====")
 print("Operations:")
 print("- Sum: Type '+' to sum")
@@ -69,3 +69,4 @@ while True:
     elif operation not in ["+", "-", "*", "/","out"]:
         print("Please type a valid input")
         break
+print("Thanks to use Fiori's calculator")
