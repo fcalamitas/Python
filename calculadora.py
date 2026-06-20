@@ -6,6 +6,8 @@ print("- Subtractio: Type '-' to subtract")
 print("- Multiplication: Type '*' to multiply")
 print("- Division: Type '/' to divide ")
 print("- Percentage: Type %")
+print("- Squareroot: Type @")
+print("Obs: Type 'out' in any moment to leave of calculator")
 while True:
     try:
         number1 = float(input("Number 1:"))
@@ -63,6 +65,9 @@ while True:
                 print("Please type a valid input")
                 break
         number1 = number1 * (number2/100)
+        print(f"{number1}")
+    elif operation == "@":
+        number1 = number1 ** 0.5
         print(f"{number1}")
     elif operation == "out":
         break
